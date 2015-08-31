@@ -1,0 +1,101 @@
+/* 
+    Created on : Aug 27, 2015, 3:11:25 PM
+    Author     : emmakordik
+*/
+
+body{
+    background-color: #aed0ea;
+    color: #333;
+    font-family: helvetica, arial, verdana, san-serif;
+    margin: 0;
+}
+
+header{
+    font-family: helvetica, arial, verdana, san-serif;
+    font-size: 1.5em;
+    margin: 0;
+    border-bottom: #999 thin solid;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    height: 100px;
+    background-color: #fff;
+    border-top: #aed0ea 10px solid;
+    box-shadow: 2px 2px 2px #333;
+}
+
+header h3{
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: #2694e8;
+    margin-top: -35px;
+    font-size: 90%;
+}
+#wrapper{
+    width: 900px;
+
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#accordion{
+    float: left;
+    width: 600px;
+    margin-right: 50px;
+}
+
+#sidebar{
+    margin-left: 50px;
+}
+
+#sidebar img{
+    width: 200px;
+    margin-bottom:10px;
+    border: #fff 8px solid;
+    box-shadow: 2px 1px 1px #666;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: #000;
+}
+
+#sidebar a:hover{
+    color: #3baae3;
+}
+
+h6{
+    padding: 0;
+    margin: 2px;
+    font-size: 110%;
+    font-weight: lighter;
+}
+
+
+h2{
+    font-family: helvetica, arial, verdana, san-serif;
+    color: #003399;
+}
+
+footer{
+    clear: both;
+    height: 40px;
+    font-size: 90%;
+    color: #666;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: 300px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+dt{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd{
+    list-style-type: bullet;
+}
